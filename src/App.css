@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -44,4 +44,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+    background-color: #a8dadc;
+    min-height: 100vh;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
 }
