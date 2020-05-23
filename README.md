@@ -1,6 +1,6 @@
 ## Available Scripts
 
-## Firt install all the dependances
+## First install all the dependencies
 
 `npm install`
 
