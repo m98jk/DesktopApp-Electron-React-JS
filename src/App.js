@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <div>
         <header className="App-header">
-          {this.props.isLoading ? (
+          {this.props.isLoading !== true ? (
             <img src={logo} className="App-logo" alt="logo" />
           ) : (
             <h1>
@@ -56,13 +56,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ul className="list-group">
+        {/* <ul className="list-group">
           {this.state.city.map((el) => (
             <li key={el.id} className="list-group-item list-group-item-action">
               {el.title}
             </li>
           ))}
-        </ul>
+        </ul> */}
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/signin" component={SignIn} />
