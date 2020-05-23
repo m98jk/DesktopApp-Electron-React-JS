@@ -26,6 +26,7 @@ class Home extends React.Component {
           <Link className="App-link" to="/about">
             Link to the About Page
           </Link>
+          <br />
           <Link className="App-link" to="/signin">
             Link to the Log In Page
           </Link>
